@@ -36,8 +36,8 @@ const Proyecto = () => {
 
   return (
     <section name='proyectos' className="w-full min-h-screen bg-fondo bg-cover bg-center rotate-180 flex justify-center items-center mb-20">
-        <div className="rotate-180 w-full md:w-3/4">
-            <h2 className="text-5xl w-11/12 font-semibold mb-10 px-4">Algunos de mis proyectos</h2>
+        <div className="rotate-180 w-11/12 md:w-3/4">
+            <h2 className="text-5xl w-11/12full font-semibold mb-10 md:px-4">Algunos de mis proyectos</h2>
             <div className="flex justify-center items-center gap-20 flex-wrap">
                 {proyectos.map(({ id, nombre, imagen, descripcion, github, link }) => (
                   <CardProyecto 
