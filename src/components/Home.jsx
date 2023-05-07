@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <section name='home' className='flex justify-center items-center px-2 w-full h-screen relative animate__animated animate__fadeInDown'>
         <img src={blob} alt="donut azul flotando" className='absolute w-80 top-0 left-[60%] text-indigo-400 hidden md:block '/>
-        <img src={blob2} alt="donut azul flotando" className='absolute md:w-80 md:top-0 left-[12%] w-40 top-[10%]'/>
+        <img src={blob2} alt="donut azul flotando" className='absolute md:w-80 md:top-0 left-[12%] w-40 -z-[1] top-[10%]'/>
         <img src={blob3} alt="donut azul flotando" className='absolute w-40 md:w-80 top-3/4 md:top-[56%] block left-1/4 md:left-1/2'/>
         <div className='flex flex-col-reverse md:flex-row w-11/12 justify-center items-center gap-10'>
           <div className='w-full md:w-3/4 md:mr-8 flex justify-center items-center gap-2 md:items-start flex-col'>
