@@ -40,7 +40,7 @@ const TarjetaInfo = () => {
           Resume <BsFileEarmarkArrowDown size={25}/>
         </>
       ),
-      href: '/resume.pdf',
+      href: '/CV_Oier.pdf',
       style: 'rounded-br-md',
       donwload: 'cv_Oier'
     }

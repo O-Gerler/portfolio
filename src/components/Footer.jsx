@@ -17,7 +17,7 @@ const Footer = () => {
         <div>
             <ul className='flex justify-center items-start flex-col gap-5'>
                 <Link><AiOutlineMail /><a href="mailto:azurmendi5o@outlook.com">azurmendi5o@outlook.com</a></Link>
-                <Link><AiOutlineDownload /><a href='/resume.pdf' download='cv_Oier' target='_blank' rel='noreferrer'>Descarga mi CV</a></Link>
+                <Link><AiOutlineDownload /><a href='/CV_Oier.pdf' download='cv_Oier' target='_blank' rel='noreferrer'>Descarga mi CV</a></Link>
             </ul>
         </div>
         <div>
