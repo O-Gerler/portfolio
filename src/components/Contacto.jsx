@@ -26,7 +26,7 @@ const Contacto = () => {
   ]
 
   return (
-    <section name='contacto' className="w-full h-screen flex justify-center items-center relative">
+    <section name='contacto' className="w-full min-h-screen flex justify-center items-center relative">
         <img src={blob} alt="blob para el formulario" className="absolute top-[20%] left-[67%] -z-10"/>
         <img src={blob2} alt="blob para el formulario" className="absolute w-96 top-[40%] left-[7%] hidden md:block -z-10"/>
         <div className="w-11/12 md:w-3/4 flex justify-center items-center flex-col">
