@@ -6,7 +6,7 @@ const Proyecto = () => {
     {
       id: 1,
       nombre: 'Landetxa K.T.',
-      imagen: 'src/assets/imagenesProyectos/capturaWebLandetxa.PNG',
+      imagen: '/imagenesProyectos/capturaWebLandetxa.PNG',
       descripcion: 'Página hecha para el Club de Fútbol Landetxa K.T.',
       github: '',
       link: 'http://landetxa.es'
@@ -14,7 +14,7 @@ const Proyecto = () => {
     {
       id: 2,
       nombre: 'Citas React',
-      imagen: 'src/assets/imagenesProyectos/capturaCitasReact.PNG',
+      imagen: '/imagenesProyectos/capturaCitasReact.PNG',
       descripcion: (<>
         <span className="px-2">Página de citas médicas hecha con <strong>React, Tailwind CSS y Vite</strong></span>
       </>),
@@ -24,7 +24,7 @@ const Proyecto = () => {
     {
       id: 3,
       nombre: 'Campamento',
-      imagen: 'src/assets/imagenesProyectos/capturaCampamento.PNG',
+      imagen: '/imagenesProyectos/capturaCampamento.PNG',
       descripcion:  (<>
         <span className="px-2">Proyecto de fin de curso full-stack hecho con <strong>Java, Bootstrap y MySQL</strong></span>
         <br />(En Desarrollo)
