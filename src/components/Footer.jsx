@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <div>
             <ul className='flex justify-center items-start flex-col gap-5'>
-                <Link ><span className='underline'>Página hecha utilizando:</span></Link>
+                <Link ><span className='underline'><a href="https://github.com/O-Gerler/portfolio" target='_blank' rel='noreferrer'>Página hecha utilizando:</a></span></Link>
                 <Link><FaReact/> React JS </Link>
                 <Link><SiTailwindcss/> Tailwind CSS </Link>
             </ul>
