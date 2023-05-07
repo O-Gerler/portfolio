@@ -5,10 +5,12 @@ import Proyectos from "./components/Proyectos"
 import Conocimientos from "./components/Conocimientos"
 import Contacto from "./components/Contacto"
 import Footer from "./components/Footer"
+import SubirArriba from "./components/SubirArriba"
 
 function App() {
   return (
     <>
+      <SubirArriba />
       <NavBar />
       <Home />
       <SobreMi />
